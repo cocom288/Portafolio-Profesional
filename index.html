@@ -10,19 +10,18 @@
     <header>
         <h1>Portafolio Profesional</h1>
         <h4>Carlos Daniel Cocom García</h4>
-
-
+        <link rel="stylesheet" href="styles.css">
     </header>
     <!--Menu de navegacion-->
     <nav>
-        <a href="#">Inicio </a>
-        <a href="#">Sobre </a>
-        <a href="#">Mí Experiencia </a>
+        <a href="#bienvenida">Inicio </a>
+        <a href="#proyectos">Sobre </a>
+        <a href="#competencias">Mí Experiencia </a>
         <a href="#">Contactame</a>
     </nav>
     <!-- Contenido Principal-->
     <main>
-        <section>
+        <section id="bienvenida">
             <h2>Bienvenidos a mi portafolio profesional</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
@@ -30,8 +29,63 @@
                 into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
                 release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
                 software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <img src="https://m.media-amazon.com/images/I/81nYjSknM1L._UF1000,1000_QL80_.jpg" width="300"/> 
+            <img src="https://m.media-amazon.com/images/I/81nYjSknM1L._UF1000,1000_QL80_.jpg" width="300" />
 
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos Tecnológicos</h2>
+            <div class="lista-proyectos">
+                <article class="proyecto">
+                    <h3>Estadías</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </article>
+                <article class="proyecto">
+                    <h3>Estadías</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </article>
+                <article class="proyecto">
+                    <h3>Estadías</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+        </section>
+        <section id="competencias">
+            <h2>Competencias profesionales</h2>
+            <h3>Tecnologías y Lenguajes</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+            </ul>
+            <h3>Dominio de habilidades</h3>
+            <div>
+                <label >HTML</label>
+                <progress min="0" max="100" value="50">50%</progress>
+            </div>
+            <div>
+                <label >CSS</label>
+                <progress min="0" max="100" value="40">40%</progress>
+            </div>
+            <div>
+                <label >JavaScript</label>
+                <progress min="0" max="100" value="30">30%</progress>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, magnam vero temporibus dolor ducimus cum.</p>
+            <div class="campos">
+                <label>Nombre completo</label>
+                <input type="text" placeholder="Escribe tu nombre completo" />
+            </div>
+            <div class="campos">
+                <label>Telefono</label>
+                <input type="text" placeholder="Escribe tu nombre completo" />
+
+            </div>
+            <div class="campos">
+                <button>Enviar</button>
+            </div>
         </section>
     </main>
     <footer>
